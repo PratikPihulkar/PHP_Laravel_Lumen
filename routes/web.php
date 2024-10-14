@@ -20,7 +20,8 @@ use  App\Http\Controllers\ProductCategoryFactoryController;
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return 'Program Is Running';
+    // return $router->app->version();
 });
 
 $router->get('postProduct', function () use ($router) {

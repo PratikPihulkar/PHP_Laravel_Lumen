@@ -96,6 +96,9 @@ $app->register(App\Providers\AppServiceProvider::class);
 $app->register(App\Providers\AuthServiceProvider::class);
 $app->register(App\Providers\EventServiceProvider::class);
 
+//For MAil
+$app->register(Illuminate\Mail\MailServiceProvider::class);
+
 //FACTORY AND SEEDER AND COMMAND GENERATION
 $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
 

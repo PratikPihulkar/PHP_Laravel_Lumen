@@ -22,6 +22,6 @@ class ProductCategoryFactoryController extends Controller
     {
         ProductCategory::factory()->count(10)->create();
 
-        return '10 products have been inserted!';
+        return '10 products inserted';
     }
 }
